@@ -41,12 +41,13 @@ export class DataService {
       return false
     }
     else{
-      //insert in db
-      db[acno]={acno,
+      db[acno]={
+        acno,
         username,
         password,
-        "balance":0}
-        return true
+        "balance":0
+      }
+      return true
     }
   }
 
